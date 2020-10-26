@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title> Shopping List</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+<body>
+    <section class="section-center">
+        <!-- Form -->
+        <form  class="grocery-form">
+            <p class="alert"></p>
+            <h3>Shopping Buddy</h3>
+            <div class="form-control">
+                <input type="text" id="grocery" placeholder="e.g. Potatoes" />
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+
+        <!-- List -->
+        <div class="grocery-container">
+            <div class="grocery-list">
+                <article class="grocery-item">
+                    <!-- Moved to app.js   -->
+                    <!-- <p class="title">item</p>
+                    <div class="btn-container">
+                        <button type="button" class="edit-btn"><i class="fas fa-edit"></i></button>
+                        <button type="button" class="delete-btn"><i class="fas fa-trash"></i></button>
+                    </div> -->
+                </article>
+            </div>
+            <button type="button" class="clear-btn">Clear items</button>
+        </div>
+    </section>
+
+
+
+<!-- JavaScript -->
+    <script src="./app.js"></script>
+</body>
+</html>
